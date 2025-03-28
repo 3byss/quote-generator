@@ -1,0 +1,60 @@
+/* Random Quote Generator Styles */
+
+/* General body styling */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(8, 126, 236, 0.8); /* Soft blue background */
+    display: flex; /* Center content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Full viewport height minus a small margin */
+    margin: 0; /* Remove default margin */
+}
+
+/* Container for the quote generator */
+.container {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    text-align: center; /* Center text */
+    background-color: rgb(255, 255, 255); /* Light gray with transparency */
+    width: 67vh; /* Fixed width for consistent layout */
+    height: 46vh; /* Fixed height for consistent layout */
+    color: rgb(0, 0, 0); /* Text color */
+    border: 3px solid rgba(14, 14, 14, 0.707); /* Subtle border */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.573); /* Glow effect */
+    padding: 20px; /* Add padding inside the container */
+}
+
+/* Button styling */
+#generate-btn {
+    text-align: center; /* Center text inside the button */
+    margin: 29px;
+    color: white; /* Button text color */
+    padding: 15px 20px; /* Add padding for better click area */
+    width: 380px;
+    background-color: rgb(48, 174, 253); /* Primary button color */
+    box-shadow: 0px 0px 6px 2px rgba(23, 23, 24, 0.781);
+    border: 3px solid rgba(44, 44, 44, 0.796); /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 190%;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#quote-txt {
+    font-size: 37px;
+}
+
+/* Button hover effect */
+#generate-btn:hover {
+    background-color: rgb(13, 157, 247); /* Darker blue on hover */
+}
+
+/* Button active (pressed) effect */
+#generate-btn:active {
+    background-color: rgb(0, 119, 193); /* Even darker blue when clicked */
+}
