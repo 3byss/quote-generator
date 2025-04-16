@@ -1,7 +1,5 @@
 // Random Quote Generator
 
-import "./userClass.js"
-
 const quotes = [
     "Family is not an important thing, it's everything. - Michael J. Fox",
     "The love of a family is life's greatest blessing.",
@@ -82,9 +80,3 @@ function generateQuote() {
 function randomNum(max) {
     return Math.floor(Math.random() * max);
 }
-
-let thisUser = new user("#2331", "Jerry", 24, "Golf", "Fishing", "Soccer");
-
-thisUser.debug();
-thisUser.introduce();
-thisUser.otherThings();
